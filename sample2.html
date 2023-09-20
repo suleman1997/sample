@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sample2.css"> 
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+</head>
+<body>
+    
+    <section class="container">
+        <div class="row text-bg-secondary">
+        <div class="col-3">            
+        <h1 class="text-warning"><span id="courses">15</span>+ No.of Courses</h1>
+        </div>
+        <div class="col-3">
+        <h1 class="text-warning"><span id="students">30</span>+ No.of Students</h1>
+    </div>
+    <div class="col-3">
+        <h1 class="text-warning"><span id="place">40</span>+ No.Of placement</h1>
+        </div>
+        <div class="col-3">
+        <h1 class="text-warning"><span id="regis">10</span>+ No.of Registration</h1>
+        </div> 
+        </div>
+    </section>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    
+   
+        <script src="plugins/countMe.min.js"></script>
+        <script>
+            window.onload = () =>{
+                $('#courses').countMe(0,0);
+                $('#students').countMe(0,0);
+                $('#place').countMe(0,0);
+                $('#regis').countMe(0,0);
+            }
+        </script>
+</body>
+</htm
